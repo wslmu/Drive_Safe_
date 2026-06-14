@@ -1,0 +1,30 @@
+# Flutter / Dart generated files
+**/.dart_tool/
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Local secrets or environment files
+*.env
+config.py
+
+# Python cache if any utility script is added later
+__pycache__/
+*.pyc
+
+# Office temporary lock files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Large video files that exceed GitHub's 100 MB limit.
+# Use the YouTube links in README, Git LFS, or GitHub Releases for these.
+POC et  Video Presentation/Drive Safe _ Presentation et POC.mp4
+POC et  Video Presentation/Drive Safe _ Presentation et POC.zip

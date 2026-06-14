@@ -1,0 +1,32 @@
+name: drive_safe_mobile
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  camera: ^0.11.1
+  google_mlkit_face_mesh_detection: ^0.4.2
+  audioplayers: ^6.1.0
+  shared_preferences: ^2.5.3
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.6.3
+  cloud_firestore: ^5.6.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/alarme.mp3
