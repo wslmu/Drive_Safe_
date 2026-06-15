@@ -73,8 +73,6 @@ Drive_Safe_GitHub_Final/
           modele_affaires_responsable_ecologie.jpg
   POC et  Video Presentation/
     POC DRIVE SAFE.mp4             Vidéo courte de démonstration du POC
-  premier_livrable/
-    EMSI 1 ER RV ...               Premier livrable de conception transmis en début de projet
 ```
 
 La vidéo complète de présentation est disponible via YouTube car le fichier source dépasse la limite standard de GitHub pour un dépôt classique.
@@ -177,7 +175,6 @@ Firebase ne stocke ni vidéo, ni image caméra, ni empreinte faciale. Si le proj
 | Business Model Canvas | `livrables/business_plan/annexes/annexe_4_business_model_et_ecologie/business_model_canvas_drive_safe.png` |
 | Modèle d'affaires responsable | `livrables/business_plan/annexes/annexe_4_business_model_et_ecologie/` |
 | Diagrammes de conception | `conception/` |
-| Premier livrable | `premier_livrable/` |
 | Vidéo POC | `POC et  Video Presentation/POC DRIVE SAFE.mp4` |
 
 Vidéos en ligne :

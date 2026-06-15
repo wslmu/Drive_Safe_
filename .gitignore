@@ -4,6 +4,14 @@
 **/.flutter-plugins
 **/.flutter-plugins-dependencies
 
+# The final deliverable keeps only the Android mobile POC under application/.
+/drive_safe_mobile/
+/application/drive_safe_mobile/ios/
+/application/drive_safe_mobile/linux/
+/application/drive_safe_mobile/macos/
+/application/drive_safe_mobile/web/
+/application/drive_safe_mobile/windows/
+
 # IDE / OS
 .vscode/
 .idea/
