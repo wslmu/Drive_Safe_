@@ -145,18 +145,15 @@ flutter test
 
 ## Configuration Firebase
 
-Le projet peut fonctionner en mode local si Firebase n'est pas configuré.
-
-Pour activer Firebase :
-
-1. Créer un projet Firebase.
-2. Activer Firebase Authentication avec Email/Password.
-3. Créer une base Cloud Firestore.
-4. Placer le fichier `google-services.json` dans :
+Firebase est déjà configuré dans le POC Android fourni. Le fichier `google-services.json` est présent dans :
 
 ```text
 application/drive_safe_mobile/android/app/google-services.json
 ```
+
+Il relie l'application au projet Firebase utilisé pour le POC : `drive-safe-5ac8d`.
+
+Firebase est utilisé pour l'authentification, le profil utilisateur et la sauvegarde optionnelle des statistiques de session dans Cloud Firestore. L'utilisateur final n'a rien à configurer.
 
 Les données cloud sont organisées ainsi :
 
@@ -165,7 +162,7 @@ users/{uid}/sessions/{sessionId}
 users/{uid}/meta/profile
 ```
 
-Firebase sert uniquement à l'authentification, au profil utilisateur et à la sauvegarde optionnelle de statistiques de session. Les vidéos et les images caméra ne sont pas stockées.
+Firebase ne stocke ni vidéo, ni image caméra, ni empreinte faciale. Si le projet est cloné pour être relié à un autre espace Firebase, il suffit de remplacer le fichier `google-services.json` par celui du nouveau projet Firebase.
 
 ---
 
