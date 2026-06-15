@@ -6,8 +6,7 @@ class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
       throw UnsupportedError(
-        'DefaultFirebaseOptions have not been configured for web - '
-        'you can reconfigure this by running the FlutterFire CLI again.',
+        'Firebase is not configured for web.',
       );
     }
     switch (defaultTargetPlatform) {
@@ -15,23 +14,19 @@ class DefaultFirebaseOptions {
         return android;
       case TargetPlatform.iOS:
         throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
+          'Firebase is not configured for iOS.',
         );
       case TargetPlatform.macOS:
         throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
+          'Firebase is not configured for macOS.',
         );
       case TargetPlatform.windows:
         throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
+          'Firebase is not configured for Windows.',
         );
       case TargetPlatform.linux:
         throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for linux - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
+          'Firebase is not configured for Linux.',
         );
       default:
         throw UnsupportedError(
@@ -41,13 +36,10 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: String.fromEnvironment(
-      'FIREBASE_ANDROID_API_KEY',
-      defaultValue: 'REPLACE_WITH_FIREBASE_ANDROID_API_KEY',
-    ),
-    appId: '1:995140230850:android:472227bc2334bae5a1655b',
-    messagingSenderId: '995140230850',
-    projectId: 'drive-safe-5ac8d',
-    storageBucket: 'drive-safe-5ac8d.firebasestorage.app',
+    apiKey: 'AIzaSyDy3Mhuh--pyk_ZLRSVksXq6kqOoebrApA',
+    appId: '1:57641095955:android:55f0ee148d1f89117080e6',
+    messagingSenderId: '57641095955',
+    projectId: 'drive-safe-8e7cf',
+    storageBucket: 'drive-safe-8e7cf.firebasestorage.app',
   );
 }

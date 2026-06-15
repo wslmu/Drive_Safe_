@@ -107,7 +107,7 @@ Pré-requis :
 - Flutter SDK installé.
 - Android Studio ou Android SDK installé.
 - Un téléphone Android ou un émulateur avec caméra.
-- Un projet Firebase configuré si l'on souhaite tester la connexion et la synchronisation cloud.
+- Une connexion Internet si l'on souhaite tester la connexion Firebase et la synchronisation cloud.
 
 Commandes :
 
@@ -151,7 +151,7 @@ Firebase est déjà configuré dans le POC Android fourni. Le fichier `google-se
 application/drive_safe_mobile/android/app/google-services.json
 ```
 
-Il relie l'application au projet Firebase utilisé pour le POC : `drive-safe-5ac8d`.
+Il relie l'application au projet Firebase utilisé pour le POC : `drive-safe-8e7cf`.
 
 Firebase est utilisé pour l'authentification, le profil utilisateur et la sauvegarde optionnelle des statistiques de session dans Cloud Firestore. L'utilisateur final n'a rien à configurer.
 
