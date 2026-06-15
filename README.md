@@ -69,13 +69,14 @@ Drive_Safe_GitHub_Final/
           prevision financiere.xlsx
         annexe_4_business_model_et_ecologie/
           business_model_canvas_drive_safe.png
-          modele_affaires_responsable_ecologie.pdf
-          modele_affaires_responsable_ecologie.jpg
+          modele-daffaires-responsable-editable_page-0001.jpg
   POC et  Video Presentation/
     POC DRIVE SAFE.mp4             Vidéo courte de démonstration du POC
+    Drive Safe Presentation et POC.mp4
+                                   Vidéo complète de présentation et de démonstration
 ```
 
-La vidéo complète de présentation est disponible via YouTube car le fichier source dépasse la limite standard de GitHub pour un dépôt classique.
+La vidéo complète de présentation est fournie au format MP4 compressé dans le dossier `POC et  Video Presentation/` et reste également disponible via YouTube.
 
 ---
 
@@ -176,6 +177,7 @@ Firebase ne stocke ni vidéo, ni image caméra, ni empreinte faciale. Si le proj
 | Modèle d'affaires responsable | `livrables/business_plan/annexes/annexe_4_business_model_et_ecologie/` |
 | Diagrammes de conception | `conception/` |
 | Vidéo POC | `POC et  Video Presentation/POC DRIVE SAFE.mp4` |
+| Vidéo complète de présentation | `POC et  Video Presentation/Drive Safe Presentation et POC.mp4` |
 
 Vidéos en ligne :
 
